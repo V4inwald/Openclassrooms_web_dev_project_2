@@ -1,3 +1,36 @@
 body {
     font-family: 'Raleway', sans-serif; 
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 23px;
+}
+
+a {
+    text-decoration:none;
+}
+
+.booki-logo {
+    height: 19px;
+    padding: 21px 12px;
+}
+
+.navigation-menu-header {
+    list-style:none;
+    display: flex;
+}
+
+.navigation-menu-link {
+    padding: 48px 34px 48px 34px;
+}
+
+.navigation-menu-link:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 46px;
 }
