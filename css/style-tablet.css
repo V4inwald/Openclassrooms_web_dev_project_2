@@ -1,10 +1,17 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
+    body {
+        padding: 0px 70px;
+    }
+
     .navigation-menu-link:hover {
         color: #0065FC;
         border-top: 2px solid #0065FC;
         padding-top: 46px;
     }
 
-    
+    .search-icon {
+        display: none;
+    }
+
 }
