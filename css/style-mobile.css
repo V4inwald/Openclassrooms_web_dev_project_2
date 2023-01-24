@@ -18,4 +18,13 @@
     .button-desktop-tablet {
         display: none;
     }
+
+    .filters {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .accomodations-section-see-more {
+        display: none;
+    }
 }
