@@ -1,23 +1,28 @@
 body {
     font-family: 'Raleway', sans-serif; 
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 23px;
 }
 
 a {
     text-decoration:none;
+    color: black;
+}
+
+h1, h2 {
+    font-size: 22px ;
+    font-weight: 700;
 }
 
 .booki-logo {
     height: 19px;
-    padding: 21px 12px;
+    padding: 21px 0px;
 }
 
 .navigation-menu-header {
@@ -26,11 +31,186 @@ a {
 }
 
 .navigation-menu-link {
-    padding: 48px 34px 48px 34px;
+    padding: 48px 27px 48px 27px;
 }
 
 .navigation-menu-link:hover {
     color: #0065FC;
-    border-top: 2px solid #0065FC;
-    padding-top: 46px;
+}
+
+.search-section-title {
+    margin-bottom: 0.5em;
+}
+
+.search-section-subtitle {
+    margin-top: 0;
+}
+
+.search-container {
+    display: flex;
+    height: 49px;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.location-icon {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 49px;
+    width: 50px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.search-button {
+    padding: 0px 16px;
+    border-style: none;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+    font-weight: inherit;
+    font-size: inherit;
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    border-style: none;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    padding-left: 16px;
+    font-weight: inherit;
+    font-size: inherit;
+}
+#search-input::placeholder {
+    color: black;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: 700;
+}
+
+.filter-text {
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.filter-buttons {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    border: 2px #F2F2F2 solid;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+.filter-buttons:hover {
+    background-color: #DEEBFF;
+}
+
+.filter-icons {
+    color: #0065FC;
+}
+
+.filter-buttons-text {
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.filters-layout {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.informations {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.info-icon {
+    border: 1px #F2F2F2 solid;
+    border-radius: 100%;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0065FC;
+    margin-right: 11px;
+    font-size: 13px;
+}
+
+.accomodations-section {
+    padding: 40px;
+    width: 66%;
+    margin-top: 20px;
+}
+
+.accomodation-card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.accomodation-card {
+    display: block;
+    /* width: 236px; */
+    width: 30%;
+    border: 5px white solid;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.accomodation-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.accomodation-card-image {
+    height: 114px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+.accomodation-card-text {
+    margin: 0em 1em;
+}
+
+.accomodation-card-title {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0.5em 0em;
+}
+
+.accomodation-card-subtitle {
+    font-size: 14px;
+    margin: 0;
+}
+
+.accomodation-card-rating {
+    display: flex;
+    margin: 0.5em 0em;
+    font-size: 12px;
+}
+
+.stars-checked {
+    color: #0065FC;
+}
+
+.stars-unchecked {
+    color: #F2F2F2;
+    margin-left: 3px;
+}
+
+.accomodations-section-see-more {
+    font-size: 18px;
+    font-weight: 700;
 }

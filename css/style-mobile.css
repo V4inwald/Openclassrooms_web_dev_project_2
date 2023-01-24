@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px) {
+    
+    body {
+        padding: 0;
+    }
+
+    .navigation-menu-link {
+        border-bottom: 3px solid #F2F2F2;
+        padding-bottom: 24px;
+    }
+
+    .navigation-menu-link:hover {
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+        padding-bottom: 24px;
+    }
+
+    .button-desktop-tablet {
+        display: none;
+    }
+
+    .filters {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .accomodations-section-see-more {
+        display: none;
+    }
+}
