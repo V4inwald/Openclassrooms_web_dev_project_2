@@ -295,3 +295,34 @@ h1, h2 {
     flex-direction: column;
     justify-content: space-between;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    padding: 45px;
+}
+
+.footer-column-container {
+    width: 33%;
+    padding: 0px 30px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer-links-list {
+    list-style-type: none;
+    padding: 0px;
+    font-size: 16px;
+}
+
+.footer-link {
+    padding: 6px 0px;
+}
+
+.footer-link:hover {
+    color: #0065FC;
+}
