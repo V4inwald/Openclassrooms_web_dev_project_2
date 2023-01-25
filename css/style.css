@@ -146,6 +146,10 @@ h1, h2 {
     font-size: 13px;
 }
 
+.accomodations-and-popular-container {
+    display: flex;
+}
+
 .accomodations-section {
     padding: 40px;
     width: 66%;
@@ -180,22 +184,27 @@ h1, h2 {
     border-radius: 20px 20px 0px 0px;
     
 }
-.accomodation-card-text {
-    margin: 0em 1em;
+
+.card-text {
+    margin: 0em 1em; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.accomodation-card-title {
+.card-title {
     font-weight: 700;
     font-size: 16px;
     margin: 0.5em 0em;
 }
 
-.accomodation-card-subtitle {
+.card-subtitle {
     font-size: 14px;
+    font-weight: 600;
     margin: 0;
 }
 
-.accomodation-card-rating {
+.card-rating {
     display: flex;
     margin: 0.5em 0em;
     font-size: 12px;
@@ -213,4 +222,55 @@ h1, h2 {
 .accomodations-section-see-more {
     font-size: 18px;
     font-weight: 700;
+}
+
+.popular-section {
+    padding: 40px;
+    width: 31%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.popular-section-title-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chart-icon {
+    color: #0065FC;
+    font-size: 18px;
+}
+
+.popular-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.popular-card {
+    display: block;
+    width: 100%;
+    border: 5px white solid;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.popular-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.popular-card-image {
+    height: 134px;
+    width: 40%;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+    
 }
