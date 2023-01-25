@@ -146,32 +146,32 @@ h1, h2 {
     font-size: 13px;
 }
 
-.accomodations-and-popular-container {
+.accommodations-and-popular-container {
     display: flex;
 }
 
-.accomodations-section {
+.accommodations-section {
     padding: 22px 40px;
     width: 66%;
     margin-top: 20px;
 }
 
-.accomodation-card-container {
+.accommodation-card-container {
     display: flex;
     justify-content: space-between;
     padding: 15px 0px;
 }
 
-.accomodation-card {
+.accommodation-card {
     width: 30%;
 }
 
-.accomodation-card , .popular-card {
+.accommodation-card , .popular-card {
     border: 5px white solid;
 }
 
 
-.accomodation-card , .popular-card , .activities-card {
+.accommodation-card , .popular-card , .activities-card {
     display: block;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -179,11 +179,11 @@ h1, h2 {
     border-radius: 20px;
 }
 
-.accomodation-card:hover , .popular-card:hover , .activities-card:hover {
+.accommodation-card:hover , .popular-card:hover , .activities-card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.accomodation-card-image {
+.accommodation-card-image {
     height: 114px;
     width: 100%;
     object-fit: cover;
@@ -224,7 +224,7 @@ h1, h2 {
     margin-left: 3px;
 }
 
-.accomodations-section-see-more {
+.accommodations-section-see-more {
     font-size: 18px;
     font-weight: 700;
 }
