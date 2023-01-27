@@ -94,6 +94,7 @@ h1, h2 {
 }
 #search-input::placeholder {
     color: black;
+    opacity: 100%;
 }
 
 .filters {
