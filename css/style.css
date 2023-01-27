@@ -1,6 +1,7 @@
 body {
     font-family: 'Raleway', sans-serif; 
     max-width: 1400px;
+    font-size: 100%;
     margin: 0px auto;
 }
 
@@ -16,7 +17,7 @@ a {
 }
 
 h1, h2 {
-    font-size: 22px ;
+    font-size: 1.375rem ;
     font-weight: 700;
 }
 
@@ -52,8 +53,8 @@ h1, h2 {
     display: flex;
     height: 49px;
     font-weight: 700;
-    font-size: 18px;
-    margin: 20px 0px;
+    font-size: 1.125rem;
+    margin: 20px 0px 32px 0px;
 }
 
 .location-icon {
@@ -62,7 +63,7 @@ h1, h2 {
     justify-content: space-around;
     align-items: center;
     height: 49px;
-    width: 50px;
+    min-width: 50px;
     border-radius: 15px 0px 0px 15px;
 }
 
@@ -99,7 +100,7 @@ h1, h2 {
 }
 
 .filter-text {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .filter-buttons {
@@ -108,7 +109,7 @@ h1, h2 {
     padding: 0px 20px;
     border: 2px #F2F2F2 solid;
     border-radius: 25px;
-    font-size: 17px;
+    font-size: 1.063rem;
 }
 
 .filter-buttons:hover {
@@ -133,7 +134,8 @@ h1, h2 {
 .informations {
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 1rem;
+    margin-top: 16px;
 }
 
 .info-icon {
@@ -146,7 +148,7 @@ h1, h2 {
     justify-content: center;
     color: #0065FC;
     margin-right: 11px;
-    font-size: 13px;
+    font-size: 0.813rem;
 }
 
 .accommodations-and-popular-container {
@@ -202,12 +204,12 @@ h1, h2 {
 
 .card-title {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
     margin: 0.5em 0em;
 }
 
 .card-subtitle {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     margin: 0;
 }
@@ -215,7 +217,7 @@ h1, h2 {
 .card-rating {
     display: flex;
     margin: 0.5em 0em;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .stars-checked {
@@ -228,7 +230,7 @@ h1, h2 {
 }
 
 .accommodations-section-see-more {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
@@ -247,7 +249,7 @@ h1, h2 {
 
 .chart-icon {
     color: #0065FC;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .popular-card-container {
@@ -314,13 +316,13 @@ footer {
 
 .footer-title {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .footer-links-list {
     list-style-type: none;
     padding: 0px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .footer-link {
