@@ -26,7 +26,10 @@
         padding-bottom: 24px;
     }
 
-    .search-section {
+    .search-section,
+    .accommodations-section,
+    .popular-section,
+    .activities-section {
         padding: 20px;
     }
 
@@ -53,10 +56,69 @@
     }
 
     #search-input{
-        flex: 1 1 0;
+        flex-shrink: 1;
     }
 
     .accommodations-section-see-more {
         display: none;
+    }
+
+    .accommodations-and-popular-container {
+        flex-wrap: wrap-reverse;
+    }
+
+    .accommodations-section {
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    .accommodation-card {
+        width: 98%;
+    }
+
+    .popular-section {
+        background-color: #F2F2F2;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .accommodation-card-container {
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px 0px 0px 0px;
+    }
+
+    #accommodations-link {
+        margin: 7px 0px;
+    }
+
+    .activities-card-container {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .activities-card {
+        width: 100%;
+    }
+
+    .activities-card-image {
+        height: 134px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .footer-column-container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer-title {
+        margin: 16px 0px;
     }
 }

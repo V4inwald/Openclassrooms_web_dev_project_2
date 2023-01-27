@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body {
-        padding: 0px 70px;
+        padding: 0px 5%;
     }
 
     .navigation-menu-link:hover {
@@ -12,6 +12,15 @@
 
     .search-icon {
         display: none;
+    }
+
+    .filter-buttons {
+        padding: 0px 2%;
+        font-size: 95%;
+    }
+
+    .filter-text {
+        font-size: 95%;
     }
 
     .accommodations-and-popular-container {
@@ -39,20 +48,16 @@
         flex-direction: column;
         width: 100%;
         margin-left: 0px;
+        margin-top: 50px;
     }
 
     .popular-card-container {
         flex-direction: row;
-        gap: 20px;
+        gap: 2%;
     }
 
-    .filter-buttons {
-        padding: 0px 2%;
-        font-size: 90%;
-    }
-
-    .filter-text {
-        font-size: 90%;
+    .activities-card-image {
+        height: 210px;
     }
 
 
