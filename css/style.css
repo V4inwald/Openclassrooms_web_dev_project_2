@@ -32,6 +32,8 @@ h1, h2 {
 
 .navigation-menu-link {
     padding: 48px 27px 48px 27px;
+    display: flex;
+    justify-content: center;
 }
 
 .navigation-menu-link:hover {
@@ -90,14 +92,14 @@ h1, h2 {
 
 .filters {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     font-weight: 700;
+    gap: 1.5%;
 }
 
 .filter-text {
     font-size: 18px;
-    margin-right: 15px;
 }
 
 .filter-buttons {
@@ -106,7 +108,7 @@ h1, h2 {
     padding: 0px 20px;
     border: 2px #F2F2F2 solid;
     border-radius: 25px;
-    margin: 15px;
+    font-size: 17px;
 }
 
 .filter-buttons:hover {
@@ -119,12 +121,13 @@ h1, h2 {
 
 .filter-buttons-text {
     margin-left: 10px;
-    font-size: 17px;
 }
 
 .filters-layout {
     display: flex;
     flex-wrap: nowrap;
+    gap: 1.5%;
+    width: 100%;
 }
 
 .informations {
@@ -260,10 +263,11 @@ h1, h2 {
     width: 100%;
     display: flex;
     margin: 15px 0px;
+    max-height: 140px;
 }
 
 .popular-card-image {
-    height: 134px;
+    height: 140px;
     width: 40%;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
