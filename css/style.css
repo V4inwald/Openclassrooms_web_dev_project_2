@@ -1,6 +1,7 @@
 body {
     font-family: 'Raleway', sans-serif; 
     max-width: 1400px;
+    font-size: 100%;
     margin: 0px auto;
 }
 
@@ -16,7 +17,7 @@ a {
 }
 
 h1, h2 {
-    font-size: 22px ;
+    font-size: 1.375rem ;
     font-weight: 700;
 }
 
@@ -32,10 +33,16 @@ h1, h2 {
 
 .navigation-menu-link {
     padding: 48px 27px 48px 27px;
+    display: flex;
+    justify-content: center;
 }
 
 .navigation-menu-link:hover {
     color: #0065FC;
+}
+
+.search-section {
+    margin-bottom: 20px;
 }
 
 .search-section-title {
@@ -50,8 +57,8 @@ h1, h2 {
     display: flex;
     height: 49px;
     font-weight: 700;
-    font-size: 18px;
-    margin: 20px 0px;
+    font-size: 1.125rem;
+    margin: 20px 0px 32px 0px;
 }
 
 .location-icon {
@@ -60,7 +67,7 @@ h1, h2 {
     justify-content: space-around;
     align-items: center;
     height: 49px;
-    width: 50px;
+    min-width: 50px;
     border-radius: 15px 0px 0px 15px;
 }
 
@@ -83,6 +90,7 @@ h1, h2 {
     padding-left: 16px;
     font-weight: inherit;
     font-size: inherit;
+    width: 16rem;
 }
 #search-input::placeholder {
     color: black;
@@ -90,14 +98,13 @@ h1, h2 {
 
 .filters {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     font-weight: 700;
+    gap: 1.5%;
 }
 
 .filter-text {
-    font-size: 18px;
-    margin-right: 15px;
+    font-size: 1.125rem;
 }
 
 .filter-buttons {
@@ -106,7 +113,7 @@ h1, h2 {
     padding: 0px 20px;
     border: 2px #F2F2F2 solid;
     border-radius: 25px;
-    margin: 15px;
+    font-size: 1.063rem;
 }
 
 .filter-buttons:hover {
@@ -119,18 +126,20 @@ h1, h2 {
 
 .filter-buttons-text {
     margin-left: 10px;
-    font-size: 17px;
 }
 
 .filters-layout {
     display: flex;
     flex-wrap: nowrap;
+    gap: 1.5%;
+    width: 100%;
 }
 
 .informations {
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 1rem;
+    margin-top: 16px;
 }
 
 .info-icon {
@@ -143,7 +152,7 @@ h1, h2 {
     justify-content: center;
     color: #0065FC;
     margin-right: 11px;
-    font-size: 13px;
+    font-size: 0.813rem;
 }
 
 .accommodations-and-popular-container {
@@ -153,7 +162,6 @@ h1, h2 {
 .accommodations-section {
     padding: 22px 40px;
     width: 66%;
-    margin-top: 20px;
 }
 
 .accommodation-card-container {
@@ -170,8 +178,9 @@ h1, h2 {
     border: 5px white solid;
 }
 
-
-.accommodation-card , .popular-card , .activities-card {
+.accommodation-card , 
+.popular-card , 
+.activities-card {
     display: block;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -179,7 +188,9 @@ h1, h2 {
     border-radius: 20px;
 }
 
-.accommodation-card:hover , .popular-card:hover , .activities-card:hover {
+.accommodation-card:hover , 
+.popular-card:hover , 
+.activities-card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
@@ -199,12 +210,12 @@ h1, h2 {
 
 .card-title {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
     margin: 0.5em 0em;
 }
 
 .card-subtitle {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     margin: 0;
 }
@@ -212,7 +223,7 @@ h1, h2 {
 .card-rating {
     display: flex;
     margin: 0.5em 0em;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .stars-checked {
@@ -225,14 +236,13 @@ h1, h2 {
 }
 
 .accommodations-section-see-more {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
 .popular-section {
     padding: 22px 40px;
     width: 31%;
-    margin-top: 20px;
     margin-left: 40px;
 }
 
@@ -244,7 +254,7 @@ h1, h2 {
 
 .chart-icon {
     color: #0065FC;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .popular-card-container {
@@ -252,18 +262,17 @@ h1, h2 {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    /* margin-bottom: 30px; */
 }
-
 
 .popular-card {
     width: 100%;
     display: flex;
     margin: 15px 0px;
+    max-height: 140px;
 }
 
 .popular-card-image {
-    height: 134px;
+    height: 140px;
     width: 40%;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
@@ -290,7 +299,7 @@ h1, h2 {
 }
 
 .activities-card-text {
-    padding: 1.25em;
+    padding: 4% 1.25rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -310,13 +319,13 @@ footer {
 
 .footer-title {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .footer-links-list {
     list-style-type: none;
     padding: 0px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .footer-link {

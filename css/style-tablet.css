@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body {
-        padding: 0px 70px;
+        padding: 0px 5%;
     }
 
     .navigation-menu-link:hover {
@@ -13,5 +13,52 @@
     .search-icon {
         display: none;
     }
+
+    .filter-buttons {
+        padding: 0px 2%;
+        font-size: 95%;
+    }
+
+    .filter-text {
+        font-size: 95%;
+    }
+
+    .accommodations-and-popular-container {
+        flex-wrap: wrap;
+    }
+
+    .accommodations-section {
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    .card-text {
+        margin: 0px 0px 0px 10px;
+    }
+
+    .card-title ,
+    .card-rating {
+        margin: 7px 0px;
+    }
+
+    .popular-section {
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .popular-card-container {
+        flex-direction: row;
+        gap: 2%;
+    }
+
+    .activities-card-image {
+        height: 210px;
+    }
+
 
 }
