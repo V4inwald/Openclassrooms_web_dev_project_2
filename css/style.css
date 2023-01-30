@@ -39,6 +39,8 @@ h1, h2 {
 
 .navigation-menu-link:hover {
     color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 46px;
 }
 
 .search-section {
@@ -94,6 +96,7 @@ h1, h2 {
 }
 #search-input::placeholder {
     color: black;
+    opacity: 100%;
 }
 
 .filters {
@@ -114,10 +117,12 @@ h1, h2 {
     border: 2px #F2F2F2 solid;
     border-radius: 25px;
     font-size: 1.063rem;
+    transition: 0.2s;
 }
 
 .filter-buttons:hover {
     background-color: #DEEBFF;
+    transform: scale(1.05);
 }
 
 .filter-icons {
@@ -184,7 +189,7 @@ h1, h2 {
     display: block;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+    transition: 0.2s;
     border-radius: 20px;
 }
 
@@ -192,6 +197,7 @@ h1, h2 {
 .popular-card:hover , 
 .activities-card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.01);
 }
 
 .accommodation-card-image {
@@ -299,7 +305,7 @@ h1, h2 {
 }
 
 .activities-card-text {
-    padding: 4% 1.25rem;
+    margin: 4% 1.25rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
