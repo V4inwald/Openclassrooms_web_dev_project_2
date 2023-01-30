@@ -22,6 +22,7 @@
 
     .navigation-menu-link:hover {
         color: #0065FC;
+        border-top: none;
         border-bottom: 3px solid #0065FC;
         padding-bottom: 24px;
     }
